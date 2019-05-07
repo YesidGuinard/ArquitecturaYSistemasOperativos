@@ -1,0 +1,40 @@
+expresiones regulares
+https://regex101.com/
+se manejan como string
+
+.  representa un solo caracter
+.* 0 o mas caracteres
+[0-9][0-9]\.[0-9]{3}\.[0-9]{3}
+99.545.545
+
+[A-Za-z0-9._%+-]+@[A-Za-z0-9.]+\.[A-Za-z]{1,3}
+ydguinards@gmail.com
+y_dgui.nardS89s@gmail.com.ar
+
+alumno@alumno-VirtualBox:~$ grep 'Root' archivo.txt
+Root
+Root Root
+
+al final
+alumno@alumno-VirtualBox:~$ grep 'Root$' archivo.txt
+Root
+Root Root
+
+inicio
+alumno@alumno-VirtualBox:~$ grep '^Root' archivo.txt
+Root
+Root Root
+-----------------------------
+wget --no-check-certificate https://www.computerhope.com/unix/wget.htm
+
+egrep
+alumno@alumno-VirtualBox:~$ egrep  '^<p |</p>$' file.html 
+
+<p class="tab">Uses "web spider" mode to check if a remote file exists. Output will resemble the following:</p>
+<p class="tab">Download a complete mirror of the website <b>www.example.org</b> to the folder <b>./example-mirror</b> for local viewing.</p>
+<p class="tab">Stop downloading <b>archive.zip</b> once five megabytes have been successfully transferred. This transfer can then later be resumed using the <b>-c</b> option.</p>
+<p class="tab"><a href="/unix/curl.htm"><b>curl</b></a> &mdash; Transfer data to or from a server.</p>
+
+
+https://github.com/DeGsoft/GeN-XE7
+https://www.idea.me/proyectos/48327/facturacion-electronica-afip?siteLang=es
